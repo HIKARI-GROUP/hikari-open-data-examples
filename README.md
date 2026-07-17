@@ -1,39 +1,37 @@
 <div align="center">
 
-# 🏔️ HIKARI Open Data Examples
+# ðï¸ HIKARI Open Data Examples
 
-**Exemples d'utilisation de données immobilières publiques françaises — DVF, DPE, cadastre**
+**Exemples d'utilisation de donnÃ©es immobiliÃ¨res publiques franÃ§aises â DVF, DPE, cadastre**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE) [![JavaScript](https://img.shields.io/badge/JavaScript-blue)]() [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white)](https://www.typescriptlang.org/) [![Leaflet](https://img.shields.io/badge/Leaflet-199900?logo=leaflet&logoColor=white)](https://leafletjs.com/) [![Data Visualization](https://img.shields.io/badge/Data_Visualization-blue)]()
 [![Version](https://img.shields.io/badge/version-v0.1.0-blue)](./CHANGELOG.md)
-[![Build](https://img.shields.io/badge/build-passing-brightgreen)]()
-[![Coverage](https://img.shields.io/badge/coverage-90%25-brightgreen)]()
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](./CONTRIBUTING.md)
 [![Stars](https://img.shields.io/github/stars/HIKARI-GROUP/hikari-open-data-examples)](https://github.com/HIKARI-GROUP/hikari-open-data-examples)
 [![Last Commit](https://img.shields.io/github/last-commit/HIKARI-GROUP/hikari-open-data-examples)](https://github.com/HIKARI-GROUP/hikari-open-data-examples/commits)
 [![Discussions](https://img.shields.io/github/discussions/HIKARI-GROUP/hikari-open-data-examples)](https://github.com/HIKARI-GROUP/hikari-open-data-examples/discussions)
 
-[📖 Documentation](./docs/) · [🗺️ Roadmap](./ROADMAP.md) · [🤝 Contributing](./CONTRIBUTING.md) · [💻 Examples](./examples/) · [🧪 Tests](./tests/) · [🤖 AI](./ai/) · [💼 Careers](./CAREERS.md)
+[ð Documentation](./docs/) Â· [ðºï¸ Roadmap](./ROADMAP.md) Â· [ð¤ Contributing](./CONTRIBUTING.md) Â· [ð» Examples](./examples/) Â· [ð§ª Tests](./tests/) Â· [ð¤ AI](./ai/) Â· [ð¼ Careers](./CAREERS.md)
 
 </div>
 
 ---
 
-## 📋 Overview
+## ð Overview
 
-Example code and visualizations using French public real estate data sources: DVF (Demandes de Valeurs Foncières), DPE (energy performance), cadastre, and INSEE demographics.
+Example code and visualizations using French public real estate data sources: DVF (Demandes de Valeurs FonciÃ¨res), DPE (energy performance), cadastre, and INSEE demographics.
 
-## ✨ Features
+## â¨ Features
 
-- 🏠 DVF transaction data fetching
-- 🔋 DPE energy performance lookup
-- 🗺️ Interactive Leaflet maps
-- 📊 Price per m² visualization
-- 📈 Market trend charts
-- 🏘️ Neighborhood analysis
-- 🔍 Anonymized synthetic datasets
+- ð  DVF transaction data fetching
+- ð DPE energy performance lookup
+- ðºï¸ Interactive Leaflet maps
+- ð Price per mÂ² visualization
+- ð Market trend charts
+- ðï¸ Neighborhood analysis
+- ð Anonymized synthetic datasets
 
-## 🏗️ Architecture
+## ðï¸ Architecture
 
 ```mermaid
 graph TD
@@ -47,13 +45,13 @@ graph TD
 
 See [Architecture](./docs/Architecture.md) for full details.
 
-## 🚀 Installation
+## ð Installation
 
 ```bash
 git clone https://github.com/HIKARI-GROUP/hikari-open-data-examples.git
 ```
 
-## 📖 Usage
+## ð Usage
 
 ```javascript
 import { fetchDvfByPostalCode } from "./dvf";
@@ -62,30 +60,30 @@ const sales = await fetchDvfByPostalCode("69001", 2024);
 console.log(sales); // [{ price, surface, date, type, ... }]
 ```
 
-## 📁 Project Structure
+## ð Project Structure
 
 ```
 hikari-open-data-examples/
-├── examples/
-│   ├── dvf-by-postal-code.js
-│   ├── dvf-map/
-│   └── dpe-lookup.js
-├── src/
-│   ├── dvf.ts           # DVF API client
-│   ├── dpe.ts           # DPE utilities
-│   └── cadastre.ts      # Cadastre data
-├── datasets/            # Synthetic sample data
-└── docs/
+âââ examples/
+â   âââ dvf-by-postal-code.js
+â   âââ dvf-map/
+â   âââ dpe-lookup.js
+âââ src/
+â   âââ dvf.ts           # DVF API client
+â   âââ dpe.ts           # DPE utilities
+â   âââ cadastre.ts      # Cadastre data
+âââ datasets/            # Synthetic sample data
+âââ docs/
 ```
 
-## 🛠️ Technologies
+## ð ï¸ Technologies
 
 - JavaScript
 - TypeScript
 - Leaflet
 - Data Visualization
 
-## 📚 Documentation
+## ð Documentation
 
 | Document | Description |
 |---|---|
@@ -104,36 +102,36 @@ hikari-open-data-examples/
 | [Onboarding](./docs/Developer-Onboarding.md) | Developer onboarding |
 | [Environment](./docs/Environment.md) | Environment setup |
 
-## 🗺️ Roadmap
+## ðºï¸ Roadmap
 
 See [ROADMAP.md](./ROADMAP.md) for our full vision.
 
-## 🤝 Contributing
+## ð¤ Contributing
 
 We welcome contributions! Please read [CONTRIBUTING.md](./CONTRIBUTING.md) first.
 
-- 🐛 [Report a bug](https://github.com/HIKARI-GROUP/hikari-open-data-examples/issues/new?labels=bug)
-- 💡 [Request a feature](https://github.com/HIKARI-GROUP/hikari-open-data-examples/issues/new?labels=enhancement)
-- 📝 [Improve docs](https://github.com/HIKARI-GROUP/hikari-open-data-examples/issues/new?labels=documentation)
-- 🔍 [Good first issues](https://github.com/HIKARI-GROUP/hikari-open-data-examples/labels/good%20first%20issue)
+- ð [Report a bug](https://github.com/HIKARI-GROUP/hikari-open-data-examples/issues/new?labels=bug)
+- ð¡ [Request a feature](https://github.com/HIKARI-GROUP/hikari-open-data-examples/issues/new?labels=enhancement)
+- ð [Improve docs](https://github.com/HIKARI-GROUP/hikari-open-data-examples/issues/new?labels=documentation)
+- ð [Good first issues](https://github.com/HIKARI-GROUP/hikari-open-data-examples/labels/good%20first%20issue)
 
-## 📄 License
+## ð License
 
-MIT © HIKARI GROUP
+MIT Â© HIKARI GROUP
 
-## 💼 Careers
+## ð¼ Careers
 
 We're hiring! See [CAREERS.md](./CAREERS.md) for open positions.
 
-## 🌐 Links
+## ð Links
 
-- 🏢 [HIKARI GROUP](https://github.com/HIKARI-GROUP)
-- 🌍 [Website](https://hikari-group.com)
-- 💼 [LinkedIn](https://www.linkedin.com/company/hikari-group)
-- 📧 [Contact](mailto:contact@hikari-group.com)
+- ð¢ [HIKARI GROUP](https://github.com/HIKARI-GROUP)
+- ð [Website](https://hikari-group.tech)
+- ð¼ [LinkedIn](https://www.linkedin.com/company/hikari-group)
+- ð§ [Contact](mailto:contact@hikari-group.tech)
 
 ---
 
 <div align="center">
-  <sub>Built with ❤️ by <a href="https://github.com/HIKARI-GROUP">HIKARI GROUP</a></sub>
+  <sub>Built with â¤ï¸ by <a href="https://github.com/HIKARI-GROUP">HIKARI GROUP</a></sub>
 </div>
