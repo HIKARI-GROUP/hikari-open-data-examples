@@ -1,29 +1,52 @@
-# Roadmap
+# Roadmap — HIKARI Open Data Examples
 
-## Vision
+> Our vision for the future of this project.
+
+## 🎯 Vision
 
 Build the reference open-source ecosystem for PropTech, real estate data, and engineering best practices.
 
-## Milestones
+## 📅 Milestones
 
-### v1.0 — Foundation
+### v1.0 — Data Sources
 
-- [ ] Initial setup
-- [ ] Documentation
-- [ ] Basic components
+- [ ] DVF fetcher
+- [ ] DPE lookup
+- [ ] Cadastre
+- [ ] INSEE
 
-### v2.1 — Expansion
+### v2.1 — Visualization
 
-- [ ] More components
-- [ ] Tests
-- [ ] Examples
+- [ ] Leaflet maps
+- [ ] Price heatmaps
+- [ ] Trend charts
 
-### v3.2 — Community
+### v3.2 — Analysis
 
-- [ ] Contributor onboarding
-- [ ] Discussions
-- [ ] Showcase
+- [ ] Neighborhood scoring
+- [ ] Market anomalies
+- [ ] Predictive models
 
-## How to Influence
+## 🔮 Long-term Vision
 
-Open a [Discussion](https://github.com/HIKARI-GROUP/.github/discussions) with category "Ideas" or "Roadmap".
+### 3-Year Vision
+- Industry-standard PropTech toolkit
+- Active contributor community (100+ contributors)
+- Used by 1000+ developers
+- Integrated with major French real estate platforms
+
+### 10-Year Vision
+- The reference platform for real estate investment analysis in France
+- AI-powered investment recommendations at scale
+- Open data transparency for the entire real estate market
+- HIKARI Foundation supporting open-source PropTech
+
+## 💡 How to Influence
+
+Open a [Discussion](https://github.com/HIKARI-GROUP/hikari-open-data-examples/discussions) with category "Ideas" or "Roadmap".
+
+---
+
+<div align="center">
+  <sub>Last updated: 2026-07-17</sub>
+</div>
